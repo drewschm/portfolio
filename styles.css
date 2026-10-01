@@ -1,0 +1,207 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+    height: 100vh;
+    background-image: url("./images/SolareBG.png");
+    /*background: no-repeat;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+.wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 95px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Roboto-Light";
+}
+
+.active {
+    color: red; !important;
+}
+
+
+.logo {
+    width: 150px;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #06bdbd;
+    font-family: "Roboto-Bold"; 
+}
+
+.hero {
+    height: 500px;
+    background-color: darkslategrey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #06bdbd;
+}
+
+.content-wrapper {
+    min-height: 400px;
+    margin-top: 60px;
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lora-Italic";
+}
+
+.content-wrapper p {
+    font-size: 16px;
+    font-family: "Lora-Italic";
+}
+
+.content-wrapper h1 {
+    font-family: "Roboto-BoldItalic";
+    font-size: 24px;
+    color: #EF767A;
+}
+
+.content-wrapper input{
+    height: 81px;
+    width: 500px;
+    border-color: #EF767A;
+}
+
+.content-wrapper button{
+    background-color: #EF767A;
+    color: white;
+    width: 246px;
+    height: 76px;
+    font-family: "Roboto-Light";
+    font-size: 30pt;
+    border-radius: 20%;
+    margin-left: 120px;
+}
+
+.content-area {
+    width: 500px;
+    min-height: 400px;
+}
+
+.content-wrapper {
+    font-family: "Roboto-Regular";
+}
+
+.image-desc {
+    width: 500px;
+    min-height: 300px;
+}
+
+.image {
+    width: 224px;
+    height: 224px;
+    background-color: brown;
+    border-radius: 100%;
+    overflow: hidden;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-origin: content-box;
+    background-position: center;
+}
+
+#cool{
+    background-color: white;
+}
+
+.image img{
+    width: 100%;
+    float: left;
+}
+
+
+.desc-holder {
+    width: 200px;
+    background-color: red;
+}
+
+.desc-holder h1{
+    font-family: "Roboto-BoldItalic";
+}
+
+.footer-wrapper {
+    height: 75px;
+    background-color: #F8F8F8;
+    font-family: "Roboto-Light";
+}
+
+footer {
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: "Lora-Regular";
+    src: url(css/fonts/Lora/Lora-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(css/fonts/Roboto/Roboto-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(css/fonts/Roboto/Roboto-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Lora-Italic";
+    src: url(css/fonts/Lora/Lora-Italic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-BoldItalic";
+    src: url(css/fonts/Roboto/Roboto-BoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(css/fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+}
